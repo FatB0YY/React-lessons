@@ -1,0 +1,310 @@
+/* Box sizing rules */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/* Remove default padding */
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+
+/* Remove default margin */
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+
+/* Set core body defaults */
+
+body {
+    font-family: 'Gilroy-Regular', sans-serif;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    background-color: #1e252b;
+}
+
+
+/* Remove list styles on ul, ol elements with a class attribute */
+
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+
+/* A elements that don't have a class get default styles */
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+
+/* Make images easier to work with */
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* Natural flow and rhythm in articles by default */
+
+article>*+* {
+    margin-top: 1em;
+}
+
+
+/* Inherit fonts for inputs and buttons */
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+
+/* Remove all animations and transitions for people that prefer not to see them */
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+.background-section {
+    height: 100vh;
+    background-color: #1e252b;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* dec-el */
+
+.dec-el {
+    position: relative;
+    z-index: 1;
+}
+
+.lineblue1 {
+    position: absolute;
+    width: 34.31px;
+    height: 464px;
+    left: 25%;
+    top: -113px;
+    background: #5063ee;
+    opacity: 0.4;
+    transform: rotate(44.32deg);
+}
+
+.linegray1 {
+    position: absolute;
+    width: 20.45px;
+    height: 623.98px;
+    left: 35%;
+    top: -288px;
+    background: #515360;
+    transform: rotate(44.32deg);
+}
+
+.circle1 {
+    position: absolute;
+    width: 102px;
+    height: 102px;
+    left: 20%;
+    top: 16px;
+    background: #728cb2;
+    opacity: 0.21;
+    border-radius: 50%;
+}
+
+.lineblue2 {
+    position: absolute;
+    width: 34.31px;
+    height: 464px;
+    left: 70%;
+    top: -178px;
+    background: #5063ee;
+    opacity: 0.4;
+    transform: rotate(44.32deg);
+}
+
+.linegray2 {
+    position: absolute;
+    width: 20.45px;
+    height: 363.41px;
+    left: 75%;
+    top: -121px;
+    background: #515360;
+    transform: rotate(44.32deg);
+}
+
+.lineblue3 {
+    position: absolute;
+    width: 34.31px;
+    height: 464px;
+    left: 95%;
+    top: 297px;
+    background: #5063ee;
+    opacity: 0.4;
+    transform: rotate(44.32deg);
+}
+
+.linegray3 {
+    position: absolute;
+    width: 20.45px;
+    height: 470.5px;
+    left: 95%;
+    top: 412px;
+    background: #515360;
+    transform: rotate(44.32deg);
+}
+
+.circle3 {
+    position: absolute;
+    width: 246px;
+    height: 246px;
+    left: 90%;
+    top: 289px;
+    background: #728cb2;
+    opacity: 0.21;
+    border-radius: 50%;
+}
+
+.lineblue4 {
+    position: absolute;
+    width: 34.31px;
+    height: 464px;
+    left: 50%;
+    top: 591px;
+    background: #5063ee;
+    opacity: 0.4;
+    transform: rotate(44.32deg);
+}
+
+.linegray4 {
+    position: absolute;
+    width: 20.45px;
+    height: 279.67px;
+    left: 50%;
+    top: 546px;
+    background: #515360;
+    transform: rotate(44.32deg);
+}
+
+.circle4 {
+    position: absolute;
+    width: 246px;
+    height: 246px;
+    left: 35%;
+    top: 782px;
+    background: #728cb2;
+    opacity: 0.21;
+    border-radius: 50%;
+}
+
+.lineblue5 {
+    position: absolute;
+    width: 37.47px;
+    height: 464px;
+    left: 0;
+    top: 480px;
+    background: #5063ee;
+    opacity: 0.4;
+    transform: rotate(44.32deg);
+}
+
+.linegray6 {
+    position: absolute;
+    width: 20.45px;
+    height: 279.67px;
+    left: 3%;
+    top: 588px;
+    background: #515360;
+    transform: rotate(44.32deg);
+}
+
+.circle7 {
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    left: 0;
+    top: 607px;
+    background: #728cb2;
+    opacity: 0.21;
+    border-radius: 50%;
+}
+
+
+/* other */
+
+.container {
+    margin: 0 auto;
+    width: 915px;
+}
+
+.back-block {
+    width: 914px;
+    background-color: #5063ee;
+    border-radius: 39px;
+    margin-top: 25%;
+    position: relative;
+    z-index: 3;
+    padding: 138px 0px;
+}
+
+.front-block {
+    position: absolute;
+    height: 100vh;
+    z-index: 4;
+    top: 0;
+    bottom: 0;
+    left: 28%;
+    width: 478px;
+    background-color: #2c353d;
+    box-shadow: 0px 0px 108px -3px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+.description {}
+
+.description-title {}
+
+.description-text {}
+
+.description-button {}
+
+.form-title {}
+
+.form-item {}
+
+.checkbox {}
+
+.form-buttons {}
